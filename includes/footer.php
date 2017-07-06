@@ -3,13 +3,31 @@
 		<div class="footer-grids">
 			<div class="footer-grid Newsletter">
 				<h3 style="margin-bottom: 10px;">Langue</h3>
-				<form>
-					<input type="text" placeholder="Subscribes.." />
-				</form>
+				<div class="ui fluid search selection dropdown">
+					<input type="hidden" name="country">
+					<i class="dropdown icon"></i>
+					<div class="default text" style="color: black;"><i class="fr flag"></i>Français</div>
+					<div class="menu">
+						<div class="item" data-value="cn"><i class="cn flag"></i>中国</div>
+						<div class="item" data-value="gb"><i class="gb flag"></i>English</div>
+						<div class="item" data-value="fr"><i class="fr flag"></i>Français</div>
+						<div class="item" data-value="de"><i class="de flag"></i>Deutsch</div>
+						<div class="item" data-value="es"><i class="es flag"></i>Español</div>
+					</div>
+				</div>
 				<h3 style="margin-bottom: 10px; margin-top: 10px;">Devise</h3>
-				<form>
-					<input type="text" placeholder="Subscribes.." />
-				</form>
+				<div class="ui fluid search selection dropdown">
+					<input type="hidden" name="country">
+					<i class="dropdown icon"></i>
+					<div class="default text" style="color: black;"><i class="euro icon"></i>Euros</div>
+					<div class="menu">
+						<div class="item" data-value="cn"><i class="lira icon"></i>Lira</div>
+						<div class="item" data-value="gb"><i class="pound icon"></i>Pound</div>
+						<div class="item" data-value="fr"><i class="euro icon"></i>Euros</div>
+						<div class="item" data-value="de"><i class="dollar icon"></i>Dollars</div>
+						<div class="item" data-value="es"><i class="yen icon"></i>Yen</div>
+					</div>
+				</div>
 			</div>
 			<div class="footer-grid Newsletter">
 				<h3>Latest News </h3>
@@ -85,3 +103,9 @@
 		<p class="copy-right"> Copyright &copy; 2017 TripWithMe | <a>Mentions légales</a> - <a>CGV</a></p>
 	</div>
 </div>
+
+<script type="text/javascript">
+	$('.ui.dropdown')
+	  .dropdown()
+	;
+</script>
