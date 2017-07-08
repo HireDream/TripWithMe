@@ -11,9 +11,7 @@
 		<div id="cd-login"> <!-- log in form -->
 			<form class="cd-form">
 
-				<p class="fieldset" style="margin-bottom: 10px;">
-					<button class="full-width has-padding facebook" type="submit">Se connecter avec Facebook <img style="transform: translateY(25%);" src="images/fb-logo.png"></button>
-				</p>
+				<div class="fb-login-button" style="width: 100% !important;" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div>
 
 				<p class="fieldset" style="margin-top: 10px;">
 					<button class="full-width has-padding google" type="submit">Se connecter avec Google <img style="transform: translateY(25%);" src="images/google-logo.png"></button>
